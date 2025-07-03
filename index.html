@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>สุขสันต์วันเกิดนะคนเก่ง!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Zeyada&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Background และของตกแต่งลอยได้ -->
+    <div class="aurora-bg"></div>
+    <div class="floating-assets">
+        <img src="/img/red-heart.png" class="float heart" alt="heart" style="--i:1;" />
+        <img src="/img/stare.png" class="float star" alt="star" style="--i:2;" />
+        <img src="/img/red-heart.png" class="float heart" alt="heart" style="--i:3;" />
+        <img src="/img/stare.png" class="float star" alt="star" style="--i:4;" />
+    </div>
+
+    <!-- Container หลักที่จัดวางเนื้อหาตรงกลาง -->
+    <div class="content-wrapper">
+        <header>
+            <h1> สุขสันต์วันเกิดนะค้าบ 🎉</h1>
+            <p class="subtitle">พี่พลอยสุดสวยย</p>
+        </header>
+
+        <!-- ส่วนของ Gift Box ถูกลบออกจากตรงนี้แล้ว -->
+
+        <!-- การ์ดความทรงจำแบบลากได้ -->
+        <section class="memory-board">
+            <h2>ข้อความถึงคนน่ารัก</h2>
+            <div class="paper-container">
+                <div class="paper image">
+                    <p>ภาพนี้น่าจะตอนแรกๆที่รู้จักกันเลย</p>
+                    <img src="./img/img1.png" alt="Memory 1"/>
+                </div>
+                <div class="paper">
+                    <p>พี่เป็นคนที่น่ารักที่สุด</p>
+                    <p>ขอให้น่ารักแบบนี้ตลอดไปนะคั้บ <span style="color: red !important;">❤️</span></p>
+                </div>
+                <div class="paper image">
+                    <p>แปปเดียวก็วันเกิดแล้วว</p>
+                    <p>ผ่านไปเร็วมากก✨</p>
+                    <img src="./img/img2.png" alt="A photo of the birthday person"/>
+                </div>
+                <div class="paper red">
+                    <p class="p1">ขอให้ปีนี้เป็นปีที่ดีมากๆ</p>
+                    <p class="p2">ถ้ามีอุปสรรคอะไรก็ขอให้ผ่านไปได้อย่างราบรื่น</p>
+                </div>
+                <div class="paper image">
+                    <p>ตลอดเวลาที่รู้จักกันผมมีความสุขม๊ากมาก</p>
+                    <p>และขอให้เวลาแบบนี้ดำเนินต่อไปเรื่อยๆ</p>
+                    <img src="./img/img3.png" alt="Memory 2"/>
+                </div>
+            </div>
+        </section>
+
+        <!-- เครื่องเล่นเพลง -->
+        <section class="music-player">
+            <h2>ฟังเพลงงงง</h2>
+            <audio controls loop>
+                <source src="./src/song.mp3" type="audio/mpeg" />
+                เบราว์เซอร์ของคุณไม่รองรับการเล่นเสียง
+            </audio>
+        </section>
+
+        <footer>
+            <p>สุดท้ายอยากจะบอกว่า...ถ้าไม่มีใครก็ขอให้รู้ว่าผมอยู่ข้างๆเสมออ</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
